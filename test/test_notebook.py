@@ -5,6 +5,6 @@ from projectmanagement import notebook
 
 def test_convert(capsys):
     """Test Correct name argument prints """
-    notebook.convert('Rog')
+    notebook.convert('Reg')
     captured = capsys.readouterr()
-    assert 'Rog' in captured.out
+    assert 'Reg' in captured.out
